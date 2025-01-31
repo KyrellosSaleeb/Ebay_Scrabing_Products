@@ -38,22 +38,22 @@ A Python script to scrape laptop product data from eBay, including product names
         * Subtitle: Additional product details (e.g., condition or specifications).
   ## Dependencies
 
-    * requests: Handles HTTP requests to eBay.
+   * requests: Handles HTTP requests to eBay.
 
-    * beautifulsoup4: Parses HTML content to extract data.
+   * beautifulsoup4: Parses HTML content to extract data.
 
-    * fake-useragent: Generates random user agents to avoid detection.
+   * fake-useragent: Generates random user agents to avoid detection.
 
-    * pandas & numpy: Manage and export data to CSV.
+   * pandas & numpy: Manage and export data to CSV.
 
 
 ## Notes
 
-    * Cookies & Headers: The script includes hardcoded cookies and headers. These may need periodic updates if eBay changes its anti-scraping mechanisms.
+   * Cookies & Headers: The script includes hardcoded cookies and headers. These may need periodic updates if eBay changes its anti-scraping mechanisms.
 
-    * Rate Limiting: Avoid aggressive scraping. Add delays between requests to prevent IP bans.
+   * Rate Limiting: Avoid aggressive scraping. Add delays between requests to prevent IP bans.
 
-    * Legal Compliance: Check eBay's robots.txt and terms of service before scraping. Use this script responsibly and for educational purposes only.
+   * Legal Compliance: Check eBay's robots.txt and terms of service before scraping. Use this script responsibly and for educational purposes only.
 
 
 ## Disclaimer
